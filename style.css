@@ -1,0 +1,70 @@
+/*
+    Pilko teksto spalva
+    #666;
+
+    Bloko viršutinio border ir h1 spalva:
+    #0974b3
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #0974b3;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+ 
+body {
+    
+    font-size: 15x;
+    padding: 30px;
+    background-color:#f5f5f5;
+    
+}
+
+div.dede {
+    width: 840px;
+    height: 320px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+
+div {
+    background-color: white;
+}
+
+
+div.dede1 {
+    margin-right: 40px;
+}
+
+div.dede2, div.dede1 {
+    width: 400px;
+    height: 450px;
+    float: left;
+    padding: 20px;
+}
+
+
+ .dede, .dede1, .dede2 {
+ 
+    border-left: solid lightgrey 1px;
+    border-bottom: solid lightgrey 1px;
+    border-right: solid lightgrey 1px;
+    border-top: solid #0974b3 5px;
+}
+
+img {
+    margin-right: 10px;
+    margin-top:5px;
+    width: 150px;
+    height: 200px;
+    float: left;
+}
